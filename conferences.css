@@ -1,0 +1,123 @@
+@import url("header.css");
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container img {
+  width: 100%; /* Adjust the width*/
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FEF9E7;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+.conference-paragraph {
+  background-color: #FCF3CF;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px auto;
+  max-width: 1200px;
+}
+
+.left-section, .right-section {
+  flex-basis: 50%;
+  background-color: #F9E79F;
+  padding: 20px;
+  border-radius: 10px;
+}
+.left-section {
+  margin-right: 10px; /* Add margin-right property */
+}
+h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  width: 100%; /* Add width to stretch the container */
+}
+
+.button {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  margin: 0 5px;
+  background-color: #555;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  background-color: #9A7D0A;
+}
+
+ul.custom-bullets {
+  list-style: disc; /* Set the list style to use bullets */
+  padding-left: 20px; /* Add some padding to adjust the position of the bullets */
+}
+
+/* -----------------------*/
+/* SRART OF THE FOOTER  STYLE
+--------------------------- */
+.footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links a{
+	text-decoration:none;
+	margin: 20px;
+}
+.social-icons i {
+  font-size: 24px;
+  color: #333; /* Icon color */
+  margin-right: 20px; /* Adjust spacing */
+}
+
+.social-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+/* -----------------------*/
+/* END OF THE FOOTER  STYLE
+--------------------------- */
