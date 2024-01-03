@@ -1,0 +1,74 @@
+
+/*css/style.css */
+
+
+@import url(header.css);
+body {
+  background-color: #FFDAB9;
+}
+/*Slider style*/
+h1{ 
+	text-align:center; 
+	padding:20px;
+	font-size:50;	
+}
+.slider{
+	margin:50px auto;
+	width:50%;
+}
+ 
+.img-box img{
+	width:100%;
+}
+
+.btn{
+	border:none;
+	outline:none;
+	background:#888;
+	padding:10px 30px;
+	font-size: 20px;
+	color:#ddd;
+	cursor: pointer;
+	margin:10px auto;			 
+}
+
+.btn:hover{
+	background: #111;
+}
+/*Slider style*/
+/* -----------------------*/
+/* SRART OF THE FOOTER  STYLE
+--------------------------- */
+.footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links a{
+	text-decoration:none;
+	margin: 20px;
+}
+.social-icons i {
+  font-size: 24px;
+  color: #333; /* Icon color */
+  margin-right: 20px; /* Adjust spacing */
+}
+
+.social-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+/* -----------------------*/
+/* END OF THE FOOTER  STYLE
+--------------------------- */
