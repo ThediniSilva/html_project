@@ -1,0 +1,127 @@
+@import url(header.css);
+.sectionOne{
+    width: 70%;
+    float : left;
+    background-color: aquamarine;
+}
+
+.sectionTwo{
+    width : 40%;
+    background-color: azure;
+}
+ 
+.heading2{
+    text-align: center;
+}
+.p1{
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.largeC
+{
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+
+}
+.container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .section {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid black;
+  }
+
+  .section-small {
+    flex: 0.25;
+  }
+
+
+  /* Set the table width to 100% of the section */
+  table {
+     border: 3px;
+    width: 100%;
+    margin-left: 0;
+  }
+  .middle2{
+    width : 100%;
+    align-items: center;
+    float: left;
+}
+.container1 {
+    width: 100%; 
+    height: 150px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center; 
+  margin: 0 auto; 
+  text-align: center;
+  align-items: center;
+  }
+
+  h2{
+    font-size: 20px;
+  }
+
+   * {
+    box-sizing: border-box;
+   
+   }
+   ul {
+    list-style: none;
+   
+   }
+   
+   a {
+    text-decoration: none;
+   }
+   
+ 
+   
+   .logo img {
+    height: 35px;
+    position: relative;
+    left:-30px;
+   }
+   
+   
+/* -----------------------*/
+/* SRART OF THE FOOTER  STYLE
+--------------------------- */
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links a{
+      text-decoration:none;
+      margin: 20px;
+  }
+  .social-icons i {
+    font-size: 24px;
+    color: #333; /* Icon color */
+    margin-right: 20px; /* Adjust spacing */
+  }
+  
+  .social-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+  }
+  /* -----------------------*/
+  /* END OF THE FOOTER  STYLE
+  --------------------------- */
