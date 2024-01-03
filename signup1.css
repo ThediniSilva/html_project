@@ -1,0 +1,165 @@
+/*----------------------------------
+         background image
+------------------------------------*/
+@import url(header.css);
+body {
+  background-image: url("Image/signup-background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/*----------------------------------
+        Signup box
+------------------------------------*/
+.container {
+  width: 620px;
+  height:650px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  margin-top:100px;
+  background:transparent;
+  backdrop-filter:blur(5px);
+  justify-content:center;
+  align-items: center;
+}
+.text-medium{
+	display:block;
+	margin-bottom:5px;
+	font-weight:bold;
+	font-size:20px;
+	color:black;
+	text-align:left;
+}
+.left-box{
+	position:absolute;
+	top:0;
+	left:0;
+	box-sizing:border-box;
+	padding:40px;
+	width:300px;
+	height:400px;
+	background:transparent;
+    backdrop-filter:blur(20px);
+}
+
+h1 {
+  color: #333;
+  font-size:40px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  height:45px;
+  margin-bottom: 10px;
+}
+/*----------------------------------
+        Submit button
+------------------------------------*/
+.signup{
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*----------------------------------
+        Social media login
+------------------------------------*/
+.right-box{
+	position:absolute;
+	top:0;
+	right:0;
+	box-sizing:border-box;
+	padding:40px;
+	padding-top:120px;
+	width:300px;
+	height:300px;
+	margin-right:15px;
+}
+.right-box i{
+  font-size: 24px;
+  color: #333; /* Icon color */
+  margin-right: 20px; /* Adjust spacing */
+}
+.right-box a{
+	text-decoration:none;
+	margin: 20px;
+}
+.btn{
+	width:100%;
+	padding:12px;
+	border:none;
+	border-radius:4px;
+	margin:5px 0;
+	opacity:0.85;
+	display:inline-block;
+	
+}
+
+.facebook{
+	background-color:#3B5998;
+	color:white;
+}
+.twitter{
+	background-color:#55ACEE;
+	color:white;
+}
+.google{
+	background-color:#dd4b39;
+	color:white;
+}
+.or{
+	position:absolute;
+	top:350px;
+	left:280px;
+	width:60px;
+	height:6
+	0px;
+	background:#efefef;
+	border-radius:50%;
+	line-height:40px;
+	text-align:center;
+	text-shadow:0 2px 4px;
+}
+/* -----------------------*/
+/* SRART OF THE FOOTER  STYLE
+--------------------------- */
+.footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links a{
+	text-decoration:none;
+	margin: 20px;
+}
+.social-icons i {
+  font-size: 24px;
+  color: #333; /* Icon color */
+  margin-right: 20px; /* Adjust spacing */
+}
+
+.social-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+/* -----------------------*/
+/* END OF THE FOOTER  STYLE
+--------------------------- */
