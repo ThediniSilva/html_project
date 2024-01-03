@@ -1,12 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="icon" href="1.png">
+<title>Hotel DeLuxe</title>
+<link rel ="stylesheet" type= "text/css" href ="Home.css"> <!--connect css file-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
+
 <body>
-    <h1>Hello</h1>
+ <!--first topic-->
+ <nav>
+    <!-- Logo -->
+    <a href="/" class="logo">
+        <img src="Image/logo.jpg" width="50px" height="70px" alt="Logo">
+    </a>
+    <ul class="menu">
+        <li><a href="./Home.php">HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="./Gallery.php">GALLERY</a></li>
+        <li class="event-section">
+            <a href="#">EVENTS</a>
+            <ul class="event-dropdown">
+                <li><a href="./weddings.php">WEDDINGS</a></li>
+                <li><a href="./conferences.php">CONFERENCES</a></li>
+                <li><a href="#">OTHER</a></li>
+            </ul>
+        </li>
+        <li><a href="./Contact us.php">CONTACT US</a></li>
+        <li><a href="./FAQ.php">FAQ</a></li>
+    </ul>
+
+    <div class="two-section">
+        <a href="./signup1.php" type="button" style="background-color:rgba(176, 164, 164, 0.781);color: rgb(5, 1, 9);width: 100px;height: 40px;border: #0f0d0f;padding: 10px;cursor: pointer;font-size:medium;font-style:inherit;border-radius: 7px;">SignUp</a>
+    </div>
+
+    <div class="three-section">
+        <a href="./Login.php" style="background-color:rgba(176, 164, 164, 0.781);color: rgb(5, 1, 9);width: 100px;height: 40px;border: #0f0d0f;padding: 10px;cursor: pointer;font-size:medium;font-style:inherit;border-radius: 7px;">LogIn</a>
+    </div>
+    <a href="./Editprofile.php"><img src="Image/userprofile.jpg" width="70"></a>
+</nav>
+
+<div class="slider-container">  <!--Start the Image slider-->
+  <div class="slider">
+    <img src="Image/1.jpg" alt="Photo 1">
+    <img src="Image/2.jpg" alt="Photo 2">
+    <img src="Image/3.jpg" alt="Photo 3">
+	<img src="Image/4.jpg" alt="Photo 4">
+    <img src="Image/5.jpg" alt="Photo 5">
+    <img src="Image/6.jpg" alt="Photo 6">
+	<img src="Image/7.jpg" alt="Photo 7">
+    
+  </div>
+</div>  <!--End the Image slider-->
+
+
+<!--==============================
+Strat the Event01,02,03 (Flex box)ab
+==================================-->
+
+  <h1> UNFORGETTABLE EVENT</h1>
+  <h2>Utilizing the best of Hotel DeLuxe, plan and improve your event experiences.</h2>
+  <div class="cover">
+   <div class = "box">
+        <img src="Image/wedding.jpg" alt="Photo 1">
+	    <h2> Wedding </h2>
+		<p>Begin your Hotel DeLuxe wedding journey here.
+		Check out our well-curated collection of venues, bespoke wedding offers, and tasteful inspirations
+		made especially to help you turn your wedding vision into a beautiful reality.</p>
+		<a href="./weddings.php" class="Btn">Learn More</a>
+   </div>
+   <div class = "box">
+        <img src="Image/conference.jpg" alt="Photo 1">
+		<h2> Conferences </h2>
+		<p>Whether a high-powered brainstorm session, or an informative seminar, 
+		coffee breaks offer the perfect opportunity to mingle with other participants and re-engerize.
+		our hotel has a capacity of 800 packs an intimate banquet area, also ideal for conferences and stalls.</p>
+		<a href="./conferences.php" class="Btn">Learn More</a>
+	    
+   </div>
+   <div class = "box">
+        <img src="Image/other.jpg" alt="Photo 1">
+	    <h2> Other events </h2>
+		<p>our Hotel DeLuxe, where unforgettable events come to life. 
+		From intimate gatherings to grand celebrations, our versatile event spaces are designed to accommodate your every need. 
+		With exquisite decor, impeccable service, and attention to detail, we create an enchanting atmosphere 
+		that sets the stage for extraordinary moments.</p>
+		<a href="#Learn more" class="Btn">Learn More</a>
+   </div>
+  </div>
+<!--============================
+End the Event01,02,03(flex box)
+================================-->
+
+<!--==============================
+Strat offers
+==================================-->
+
+  <h3> Offers</h3>
+  <div class="cover1">
+   <div class = "box1">
+     
+	    <h2> Sesonal offers</h2>
+		<p style = "font-size:25px"><b>Take advantage of our seasonal offers and embrace 
+		the essence of the current season with discounted rates on  
+		special themed events and unique seasonal amenities that will enhance your stay.</b></p>
+		
+   </div>
+   <div class = "box1">
+        
+		<h2> Exclisive VIP offers </h2>
+		<p style = "font-size:25px"><b>Our Exclusive Event Package offers a personalized experience for your special occasion,
+		with a complimentary meeting room and a dedicated event coordinator to ensure seamless planning and execution.
+		</b></p>
+		
+	    
+   </div>
+   <div class = "box1">
+        
+	    <h2> Monthly offers </h2>
+		<p style = "font-size:25px"><b>Make your special event even more memorable with our monthly offers, 
+		featuring exclusive discounts and added perks tailored to each month.</b></p>
+		
+   </div>
+  </div>
+<!--============================
+End offers
+================================-->
+<!--============================
+            FOOTER
+================================-->
+<footer class="footer">
+  <div class="footer-content">
+    <p class="copyright">
+      &copy; 2023 Your Company. All rights reserved.
+    </p>
+    <div class="footer-links">
+      <a href="./feedback.php" >Feedback</a>
+      <a href="./Terms and conditions.php">Terms and condition</a>
+      <a href="./privacy.php">Privacy and Policy</a>
+    </div>
+    <div class="social-icons">
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-twitter"></i>
+	<i class="fab fa-google"></i>
+	<i class="fab fa-linkedin"></i>
+    </div>
+  </div>
+</footer>
+<!--============================
+           END FOOTER
+================================-->
+
 </body>
+
+
 </html>
